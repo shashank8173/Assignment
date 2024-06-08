@@ -148,7 +148,7 @@
     height: 2rem;
     width: 90%;
     margin: 0% 1% 0% 10%;
-    padding: 0;
+    padding: 0% 0% 0% 0%;
 }
 
 .text-agreements h2 {
@@ -199,67 +199,40 @@
     background-color: rgb(216, 210, 210);
 }
 
-@media (max-width: 1024px) {
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 1024px) {
     .main-b {
         width: 90%;
     }
 }
 
-@media (max-width: 768px) {
-    .main {
-        height: auto;
-    }
+@media only screen and (max-width: 768px) {
     .main h1 {
         font-size: medium;
-        margin: 1rem 0;
     }
     .main-b {
         height: auto;
         width: 90%;
-        padding: 1rem;
     }
     .form-group {
         flex-direction: column;
-        padding: 0 5%;
-    }
-    .form1 {
-        width: 100%;
     }
     .form1 input {
         height: 1.5rem;
+        width: 100%;
     }
     .lower p {
-        padding-right: 5rem;
+        padding-right: 10rem;
     }
 }
 
-@media (max-width: 468px) {
+@media only screen and (max-width: 468px) {
     .main h1 {
         font-size: small;
     }
-    .main-b {
-        width: 95%;
-    }
     .form1 input {
-        height: 1.5rem;
-    }
-    .text-agreements p, .text-agreements h2 {
-        width: auto;
-        margin: 0 1%;
-        padding: 0 1rem;
-    }
-    .lower {
-        flex-direction: column;
-        align-items: center;
-    }
-    .lower p {
-        padding-right: 0;
-    }
-    .btns {
-        flex-direction: column;
-        width: 100%;
-    }
-    .btn1 {
+        height: 1rem;
         width: 100%;
     }
 }
