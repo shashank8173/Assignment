@@ -142,12 +142,7 @@
   align-items: center;
   margin: 0.5rem;
 }
-.text-agreements img{
-  height: 1rem;
-  width: 1rem;
-  margin-left:95%;
-  border-radius: 100%;
-}
+
 .text-agreements p {
   border: gray 0.1rem solid;
   height: 2rem;
