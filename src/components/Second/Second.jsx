@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Right from "../assets/right.png";
-import Wrong from "../assets/red.jpg";
 import "./Second.css";
 const Second = () => {
   return (
@@ -61,17 +59,17 @@ const Second = () => {
       <h3>Documents</h3>
       <p>Once the following documents are signed, you'll be ready to get started.</p>
       <div className="text-agreements">
-        <p>Electronically sign the agreements{" (s)"} <span><img src={Right}/></span></p>
+        <p>Electronically sign the agreements{" (s)"} </p>
         <h2>{">"}</h2>
       </div>
       <div className="text-agreements">
-        <p>Non adult beverages kroger market supplier waiver and release. <span><img src={Wrong}/></span></p>
+        <p>Non adult beverages kroger market supplier waiver and release.</p>
         <h2>{">"}</h2>
       </div>
       <h3>COI PDF UPLOAD</h3>
       <p>Once the following documents are signed, you'll be ready to get started.</p>
       <div className="text-agreements">
-        <p>Electronically sign the agreements{" (s)"} <span><img src={Right}/></span></p>
+        <p>Electronically sign the agreements{" (s)"} </p>
         <h2>{">"}</h2>
       </div>
      </form>
